@@ -15,46 +15,46 @@ To run Chat Oh! locally, follow these steps:
 
 1. Clone this repository to your local machine:
 
-    ```bash
-    git clone https://github.com/Senfia/chatoh.git
-    ```
+   ```bash
+   git clone https://github.com/Senfia/chatoh.git
+   ```
 
 2. Navigate to the project directory:
 
-    ```bash
-    cd chatoh
-    ```
+   ```bash
+   cd chatoh
+   ```
 
 3. Install dependencies for both the server and client:
 
-    ```bash
-    # Install server dependencies
-    npm install
+   ```bash
+   # Install server dependencies
+   npm install
 
-    # Navigate to client directory
-    cd client
+   # Navigate to client directory
+   cd client
 
-    # Install client dependencies
-    npm install
-    ```
+   # Install client dependencies
+   npm install
+   ```
 
 ## Usage
 
 1. Start the server:
 
-    ```bash
-    npm start
-    ```
+   ```bash
+   npm start
+   ```
 
 2. Start the client:
 
-    ```bash
-    # Navigate to client directory if not already there
-    cd client
+   ```bash
+   # Navigate to client directory if not already there
+   cd client
 
-    # Start React development server
-    npm start
-    ```
+   # Start React development server
+   npm start
+   ```
 
 3. Open your browser and navigate to `http://localhost:3000` to access Chat Oh!
 
@@ -65,9 +65,13 @@ To run Chat Oh! locally, follow these steps:
 - **React**: JavaScript library for building user interfaces.
 - **WebSockets**: Communication protocol providing full-duplex communication channels over a single TCP connection.
 
-## Contributing
+## Authors
 
-We welcome contributions from the community! If you find any bugs or have suggestions for improvements, please feel free to open an issue or submit a pull request.
+**Senyo Fiawornu**
+
+- [Senfia](https://github.com/Senfia)
+
+**Joseph Darko**
 
 ## License
 
