@@ -2,11 +2,12 @@ import React from "react";
 
 const Login = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-w-96 mx-auto">
-      <div className="w-full p-6 rounded-lg shadow-md"></div>
-      <h1 className="text-3-xl font-semibold text-center">
-        Login <span className="text-primary">CHAT OH!</span>
-      </h1>
+    <div className="flex flex-col items-center justify-center min-w-96 mx-auto ">
+      <div className="w-full p-6 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+        <h1 className="text-3-xl font-semibold text-center">
+          Login <span className="text-primary">CHAT OH!</span>
+        </h1>
+      </div>
 
       <form>
         <div>
