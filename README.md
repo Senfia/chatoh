@@ -73,6 +73,8 @@ To run Chat Oh! locally, follow these steps:
 
 **Joseph Darko**
 
+- [osomfonashticah](https://github.com/osomfonashticah)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
