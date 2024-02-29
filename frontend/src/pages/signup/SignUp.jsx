@@ -30,7 +30,7 @@ const SignUp = () => {
           <img
             className="w-8 h-8 inline-block"
             alt="Tailwind CSS Navbar component"
-            src="../public/chatoh.svg"
+            src="/chatoh.svg"
           />
         </div>
         <h1 className="text-3-xl font-semibold text-center">
