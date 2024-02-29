@@ -40,23 +40,28 @@ To run Chat Oh! locally, follow these steps:
 
 ## Usage
 
-1. Start the server:
+1. Setup .env file
+
+```js
+PORT=...
+MONGO_DB_URI=...
+JWT_SECRET=...
+NODE_ENV=...
+```
+
+2. Start the server:
 
    ```bash
-   npm start
+   npm run build
    ```
 
-2. Start the client:
+# Start React development server
 
-   ```bash
-   # Navigate to client directory if not already there
-   cd client
+npm start
 
-   # Start React development server
-   npm start
-   ```
+```
 
-3. Open your browser and navigate to `http://localhost:3000` to access Chat Oh!
+4. Open your browser and navigate to `http://localhost:{PORT}` to access Chat Oh!
 
 ## Technologies Used
 
@@ -64,6 +69,7 @@ To run Chat Oh! locally, follow these steps:
 - **Express**: Web application framework for Node.js used for building APIs and web applications.
 - **React**: JavaScript library for building user interfaces.
 - **WebSockets**: Communication protocol providing full-duplex communication channels over a single TCP connection.
+- **TailwindCSS **
 
 ## Authors
 
@@ -78,3 +84,4 @@ To run Chat Oh! locally, follow these steps:
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
