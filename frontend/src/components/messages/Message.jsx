@@ -5,13 +5,13 @@ import useConversation from "../../zustand/useConversation";
 const Message = ({ message }) => {
   const { authUser } = useAuthContext();
   const { selectedConversation } = useConversation();
-  const fromMe = message.senderId === authUser._id;
-  const formattedTime = extractTime(message.createdAt);
-  const chatClassName = fromMe ? "chat-end" : "chat-start";
-  const profilePic = fromMe
+  const isMe = message.senderId === authUser._id;
+  const ftdTime = extractTime(message.createdAt);
+  const chatClassName = isMe ? "chat-end" : "chat-start";
+  const profilePic = isMe
     ? authUser.profilePic
     : selectedConversation?.profilePic;
-  const bubbleBgColor = fromMe ? "bg-primary" : "";
+  const bubbleBgColor = isMe ? "bg-primary" : "";
 
   const shakeClass = message.shouldShake ? "shake" : "";
 
@@ -23,12 +23,12 @@ const Message = ({ message }) => {
         </div>
       </div>
       <div
-        className={`chat-bubble text-white ${bubbleBgColor} ${shakeClass} pb-2`}
+        className={`chat-bubble text-black ${bubbleBgColor} ${shakeClass} pb-2`}
       >
         {message.message}
       </div>
       <div className="chat-footer opacity-50 text-xs flex gap-1 items-center">
-        {formattedTime}
+        {ftdTime}
       </div>
     </div>
   );
