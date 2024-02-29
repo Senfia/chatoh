@@ -26,6 +26,13 @@ const SignUp = () => {
   return (
     <div className="flex flex-col items-center justify-center min-w-96 mx-auto">
       <div className="w-full p-6 rounded-lg shadow-md  dark:bg-gray-800 dark:border-gray-700">
+        <div className="flex items-center justify-center">
+          <img
+            className="w-8 h-8 inline-block"
+            alt="Tailwind CSS Navbar component"
+            src="../public/chatoh.svg"
+          />
+        </div>
         <h1 className="text-3-xl font-semibold text-center">
           Sign Up <span className="text-primary">CHAT OH!</span>
         </h1>
