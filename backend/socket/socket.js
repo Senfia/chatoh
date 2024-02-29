@@ -31,4 +31,4 @@ io.on("connection", (socket) => {
   });
 });
 
-export { app, server };
+export { app, io, server };
