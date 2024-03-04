@@ -2,6 +2,8 @@
 
 Welcome to Chat Oh! - Your go-to destination for real-time messaging. This application allows users to engage in seamless conversations through a web interface. It's built using Node.js, Express, React, and WebSockets for efficient and instant communication.
 
+![alt text](https://github.com/Senfia/chatoh/blob/main/chatoh-mockup-.png?raw=true)
+
 ## Features
 
 - **Real-time Messaging**: Send and receive messages instantly without refreshing the page.
