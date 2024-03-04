@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  chatoh:
+    restart: always
+    container_name: chatoh
+    image: chatoh:latest
+    ports:
+      - 8000:8000
+    environment:
+      - PORT=
+      - MONGO_DB_URI=
+      - JWT_SECRET=
+      - NODE_ENV=
