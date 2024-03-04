@@ -1,3 +1,7 @@
+<div align="center" width="100%">
+    <img src="./frontend/public/logo.png" width="128" alt="" />
+</div>
+
 # Chat Oh!
 
 Welcome to Chat Oh! - Your go-to destination for real-time messaging. This application allows users to engage in seamless conversations through a web interface. It's built using Node.js, Express, React, and WebSockets for efficient and instant communication.
