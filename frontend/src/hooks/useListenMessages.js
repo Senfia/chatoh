@@ -1,3 +1,8 @@
+/**
+ * Custom React hook that listens for new messages from a socket connection and updates the conversation messages.
+ *
+ * @returns {void}
+ */
 import { useEffect } from "react";
 
 import { useSocketContext } from "../context/SocketContext";
