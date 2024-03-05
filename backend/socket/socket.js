@@ -1,4 +1,9 @@
 import { Server } from "socket.io";
+/**
+ * Retrieves the socket ID of the receiver based on their ID.
+ * @param {string} receiverId - The ID of the receiver.
+ * @returns {string} - The socket ID of the receiver.
+ */
 import http from "http";
 import express from "express";
 
