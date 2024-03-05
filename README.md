@@ -18,6 +18,10 @@ Welcome to Chat Oh! - Your go-to destination for real-time messaging. This appli
 
 - **Responsive Design**: Mobile-friendly layout for usage across various devices.
 
+## Live Demo
+
+See [live demo here](https://chat-oh.cubemite.com/)
+
 ## Installation
 
 To run Chat Oh! locally, follow these steps:
